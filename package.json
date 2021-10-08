@@ -1,0 +1,50 @@
+{
+  "name": "WebdriverIoJS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "login": "wdio wdio.conf.js --suite login",
+    "signUpPF": "wdio wdio.conf.js --suite signUpPF",
+    "signUpPJ": "wdio wdio.conf.js --suite signUpPJ"
+  },
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "allure-commandline": "^2.13.8",
+    "chai": "^4.3.0",
+    "chromedriver": "^94.0.0",
+    "cpf_cnpj": "^0.2.0",
+    "moment": "^2.29.1",
+    "pg": "^8.5.1",
+    "superagent": "^6.1.0",
+    "wdio": "^4.0.0",
+    "webdriverio": "^6.12.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.14",
+    "@babel/core": "^7.13.15",
+    "@babel/eslint-parser": "^7.13.14",
+    "@babel/eslint-plugin": "7.12.1",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/register": "^7.13.14",
+    "@wdio/allure-reporter": "^6.11.0",
+    "@wdio/cli": "^6.12.1",
+    "@wdio/local-runner": "^6.10.13",
+    "@wdio/mocha-framework": "^6.11.0",
+    "@wdio/spec-reporter": "^6.10.6",
+    "@wdio/sync": "^6.11.0",
+    "babel-eslint": "^10.1.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^7.20.0",
+    "eslint-plugin-mocha": "^8.0.0",
+    "eslint-plugin-wdio": "^6.6.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4",
+    "wdio-chromedriver-service": "^7.2.2"
+  }
+}
